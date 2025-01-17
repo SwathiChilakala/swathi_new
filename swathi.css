@@ -1,0 +1,26 @@
+
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    position:fixed;
+    display: flex;
+    left:50%;
+    transform:translateX(-50%)
+    background:rgba(217,243,130,0.8)
+    gap:5rem;
+    border-radius:3rem;
+    justify-content:center;
+    align-items:center;     
+}
+.logo{
+    font: size 1.2rem;
+    color:white
+}
+
+.nav-links{
+    display:flex;
+    gap:3rem
+
+}
